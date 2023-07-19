@@ -1,0 +1,478 @@
+/****** General - police ***********/
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+.neutral-star {
+    color: #d9d9d9
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 15px;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+/****** General - box ***********/
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+main {
+    width: 1440px;
+    height: 1719.52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+/****** Header ***********/
+
+.header {
+    width: 1440px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#boitelogo {
+    width: 161.09px;
+    height: 79px;
+    display: flex;
+    justify-content: left;
+}
+
+#logo {
+    padding: 30px 50px 30px 50px;
+}
+
+nav {
+    position: relative;
+    width: 328.6px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 244px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    padding-top: 16px;
+}
+
+.menu a:hover {
+    color: var(--main-color);
+    border-top: solid 2px var(--main-color);
+}
+
+/****** Section recherche ***********/
+
+.recherche {
+    width: 1340px;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titrerecherche {
+    width: 1340px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.boutonfiltre h3 {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.lieu {
+    border: #d9d9d9 solid 1px;
+    border-radius: 15px;
+    width: 377px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lieu h2 {
+    width: 132px;
+    height: 49px;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    border: none;
+    text-align: center;
+    max-width: 195px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.location {
+    width: 50px;
+    height: 49px;
+    background-color: #d9d9d9;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtre {
+    width: 758px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.boutonfiltre {
+    border: grey solid 2px;
+    border-radius: 25px;
+    padding: 4px 19px 4px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boutonfiltre:hover {
+    background-color: var(--filter-bg-color)
+}
+
+.infonombre {
+    width: 1340px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    width: 24px;
+    height: 24px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infonombre p {
+    width: 1306px;
+    height: 19px;
+}
+
+/****** Hebergements And Populaires ***********/
+
+.hebergements-and-populaires {
+    width: 1340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.notation {
+    padding-bottom: 0px;
+}
+
+/****** Hebergements ***********/
+
+.hebergements {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hebergements h1 {
+    width: 811px;
+    height: 26px;
+    margin-bottom: 15px;
+}
+
+.hebergements-cards {
+    width: 811px ;
+    height: 207.25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px 15px 0px;
+}
+
+.hebergements .card {
+    width: 250.33px ;
+    height: 207.25px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.hebergements .card-content {
+    max-width: 250.33px;
+    height: 64.25px;
+    padding-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    max-width: 100%;
+    height: 114px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 5px 5px 0px 5px;
+}
+
+.hebergements h2 {
+    width: 811px;
+    height: 21px;
+    margin-top: 15px;
+}
+
+.hebergements h2 a:hover {
+    color: var(--main-color);
+}
+
+/****** Populaires ***********/
+
+.populaires {
+    width: 32%;
+}
+
+.titrepopulaires {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires-cards .card {
+    display: flex;
+    margin-top: 33px;
+    padding-bottom: 5px;
+}
+
+.populaires-cards img {
+    width: 33%;
+    height: 136px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.populaires-cards .card-content {
+    width: 67%;
+    padding: 10px 5px 5px 15px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card-txt h4 {
+    margin-bottom: 5px;
+}
+
+/****** Activités ***********/
+
+.activites {
+    width: 1340px;
+    height: 559.02px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titreactivites {
+    width: 1280px;
+    height: 30.02px;
+    margin-top: 30px;
+}
+
+.choixactivites {
+    width: 1280px;
+    height: 439px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.choixactivites img {
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nomactivites {
+    width: 297.5px;
+    height: 59px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: -4px;
+}
+
+.nomactivites h4 {
+    width: 259.5px;
+    height: 19px;
+}
+
+/****** Footer ***********/
+
+footer {
+    background-color: var(--main-bg-color);
+    width: 1340px;
+    height: 163px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+footer div {
+    width: 446.67px;
+    height: 100%;
+    padding: 20px 0px 20px 20px;
+}
+
+footer div h2{
+    margin: 0px;
+}
+
+footer div p{
+    margin-top: 15px;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards .card {
+        width: 30%;
+    }
+
+    .populaires-cards h4 {
+        font-size: 14px;
+    }
+
+    .populaires-cards p {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}
